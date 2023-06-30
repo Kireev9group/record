@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.shop-container {
+  padding: 30px;
+}
+
+.group-bar {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  animation: slide-in-left 0.5s ease-in-out;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.random-product {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: slide-in-right 0.5s ease-in-out;
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.random-product-img {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.random-product-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.random-product-btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.random-product-btn:hover {
+  background-color: #f7cac9;
+}
+
+.device-list {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 30px;
+  animation: slide-in-bottom 0.5s ease-in-out;
+}
+
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.page-numbers {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.page-numbers button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.page-numbers button:hover {
+  background-color: #f7cac9;
+}
+
+.page-numbers button.active {
+  background-color: #f7cac9;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .group-bar {
+    padding: 10px;
+  }
+
+  .device-list {
+    padding: 10px;
+  }
+
+  .page-numbers {
+    margin-top: 20px;
+  }
+
+  .page-numbers button {
+    padding: 8px 16px;
+    margin: 0 3px;
+    font-size: 14px;
+  }
+
+  .random-product-img {
+    width: 200px;
+    height: 200px;
+  }
+}

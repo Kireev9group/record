@@ -1,0 +1,39 @@
+.filters-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+.filters-container h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.filters-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.filters-container input[type="radio"] {
+  margin-right: 5px;
+}
+
+.filters-container input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .filters-container {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .filters-container label {
+    font-size: 14px;
+  }
+}

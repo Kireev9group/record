@@ -1,0 +1,40 @@
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.list-group-item:last-child {
+  border-bottom: none;
+}
+
+.btn-dark {
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.btn-dark:hover {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-dark:focus {
+  box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.audio-btn {
+  margin-top: 1rem;
+}
+
+.card-header {
+  font-size: 2em;
+}

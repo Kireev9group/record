@@ -1,0 +1,66 @@
+.container-custom {
+  padding: 20px;
+}
+
+.form-control {
+  border: 2px solid #ced4da;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: none;
+  font-size: 16px;
+  color: #343a40;
+}
+
+.form-control:focus {
+  border-color: #f7cac9;
+  box-shadow: none;
+}
+
+.device-card {
+  border: none;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.device-card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.device-img {
+  object-fit: cover;
+  height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.device-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #343a40;
+  margin: 10px 0;
+}
+
+.device-artist {
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.row {
+  margin: 0 -10px;
+}
+
+.col {
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .col-md-3 {
+    max-width: none;
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
